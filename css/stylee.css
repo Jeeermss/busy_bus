@@ -45,7 +45,7 @@ body {
   background-size: cover;
 }
 
-.content, .content2 {
+.content, .content2, .content3 {
   background-color: #D9C8B2;
   box-sizing: border-box;
   padding-top: 3%; 
@@ -53,12 +53,16 @@ body {
   width: 100%; 
 }
 
-.content {
+.content, .content3 {
   border-bottom: .5px solid #BDAF9D;
 }
 
 .content2 {
     opacity: 0.85;
+}
+
+.content3 {
+  background-color: #ffffff; 
 }
 
 .title {
