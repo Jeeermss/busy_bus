@@ -4,9 +4,7 @@
 
 body {
   background-color: #333;
-  font-family: sans-serif;
   font-size: 10px;
-  padding: 0px;
 }
 
 .container, .lists {
@@ -57,7 +55,6 @@ body {
 
 .content {
   border-bottom: .5px solid #BDAF9D;
-
 }
 
 .content2 {
@@ -77,7 +74,7 @@ h1 {
   font-family: "Helvetica Neue";
   text-align: center;
   color: white;
-  padding-top: 23px;
+  padding-top: 21px;
 }
 
 .header {
@@ -121,7 +118,7 @@ li.label2 {
 }
 
 li span.title {
-    color: rgb(0, 122, 255); 
+    color: #383838; 
     font-size: 16px;
     font-weight: 600; 
     font-family: "Helvetica Neue"
