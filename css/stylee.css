@@ -1,0 +1,128 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #333;
+  font-family: sans-serif;
+  font-size: 10px;
+  padding: 0px;
+}
+
+.container, .lists {
+  margin: 0 auto;
+  width: 400px;
+}
+
+.fa {
+  display: inline-block;
+  position: relative;
+  left: 345px;
+  color: white;
+  bottom: 23px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 6px;
+    position: relative;
+    bottom: 23px;
+    left: 20px;
+}
+
+.route {
+  height: 250px;
+  background-image: url(../map.png);
+  background-position: fixed; 
+  width: 100%;
+}
+
+.top {
+  background-image: url(../top.png);
+  height: 25px;
+  background-size: cover;
+}
+
+.content, .content2 {
+  background-color: #D9C8B2;
+  box-sizing: border-box;
+  padding-top: 3%; 
+  padding-bottom: 7%;
+  width: 100%; 
+}
+
+.content {
+  border-bottom: .5px solid #BDAF9D;
+
+}
+
+.content2 {
+    opacity: 0.85;
+}
+
+.title {
+  background-color: #D9C8B2;
+}
+
+.content:hover {
+  background-color: lightgoldenrodyellow; 
+}
+
+h1 {
+  font-size: 23px;
+  font-family: "Helvetica Neue";
+  text-align: center;
+  color: white;
+  padding-top: 23px;
+}
+
+.header {
+  background-color: #ADAD85;
+}
+
+li {
+  font-size: 16px;
+  font-family: "Helvetica Neue";
+  display: inline; 
+  position: relative; 
+  float: left; 
+  padding-left: 20px; 
+  font-weight: 500; 
+}
+
+li.minutes {
+  display: inline; 
+  position: relative; 
+  padding-right: 20px; 
+  float: right; 
+  font-weight: 600;
+  font-family: "Helvetica Neue"; 
+}
+
+li.label { 
+    font-size: 16px; 
+    color: rgb(0, 122, 255);
+    font-weight: 600;
+    font-family: "Helvetica Neue";
+}
+
+li.label2 {
+    display: inline; 
+    position: relative; 
+    padding-right: 20px; 
+    float: right; 
+    font-size: 16px; 
+    color: rgb(0, 122, 255); 
+    font-weight: 600; 
+}
+
+li span.title {
+    color: rgb(0, 122, 255); 
+    font-size: 16px;
+    font-weight: 600; 
+    font-family: "Helvetica Neue"
+}
