@@ -36,13 +36,13 @@ body {
 
 .route {
   height: 250px;
-  background-image: url(../map.png);
+  background-image: url(../images/map.png);
   background-position: fixed; 
   width: 100%;
 }
 
 .top {
-  background-image: url(../top.png);
+  background-image: url(../images/top.png);
   height: 25px;
   background-size: cover;
 }
