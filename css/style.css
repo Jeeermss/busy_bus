@@ -75,7 +75,7 @@ body {
 
 h1 {
   font-size: 23px;
-  font-family: "Helvetica Neue";
+  font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
   text-align: center;
   color: white;
   padding-top: 21px;
@@ -87,12 +87,12 @@ h1 {
 
 li {
   font-size: 16px;
-  font-family: "Helvetica Neue";
+  font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
   display: inline; 
   position: relative; 
   float: left; 
   padding-left: 20px; 
-  font-weight: 500; 
+  font-weight: 400; 
 }
 
 li.minutes {
@@ -101,14 +101,14 @@ li.minutes {
   padding-right: 20px; 
   float: right; 
   font-weight: 600;
-  font-family: "Helvetica Neue"; 
+  font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 }
 
 li.label { 
     font-size: 16px; 
     color: rgb(0, 122, 255);
-    font-weight: 600;
-    font-family: "Helvetica Neue";
+    font-weight: 500;
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 }
 
 li.label2 {
@@ -118,12 +118,12 @@ li.label2 {
     float: right; 
     font-size: 16px; 
     color: rgb(0, 122, 255); 
-    font-weight: 600; 
+    font-weight: 500; 
 }
 
 li span.title {
     color: #383838; 
     font-size: 16px;
     font-weight: 600; 
-    font-family: "Helvetica Neue"
+    font-family:  -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
 }
